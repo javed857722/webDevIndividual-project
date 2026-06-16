@@ -124,7 +124,7 @@ const Dashboard = () => {
           style={{ opacity: settings.transparency }}
         >
           <p className="text-xs uppercase tracking-wide text-gray-400">Project Lead</p>
-          <h2 className="text-xl font-semibold mt-2">Sumit Kumar Sah</h2>
+          <h2 className="text-xl font-semibold mt-2">Javed Iqbal</h2>
           <p className="text-sm text-gray-500 mt-1">Driving Q1 delivery for multi-client program.</p>
 
           <div className="mt-5 space-y-3 text-sm text-gray-600">
