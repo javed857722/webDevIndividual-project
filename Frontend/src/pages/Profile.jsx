@@ -5,10 +5,10 @@ import { Mail, Phone, MapPin, BriefcaseBusiness, Globe } from 'lucide-react';
 import LogoutSection from '../components/LogoutSection';
 
 const defaultProfile = {
-  name: 'Sumit Kumar Sah',
+  name: 'Javed Iqbal',
   role: 'Project Lead',
   accessLevel: 'Admin',
-  email: 'sumit@tasktracker.io',
+  email: 'javed@tasktracker.io',
   phone: '+1 415 555 2266',
   location: 'San Francisco, CA',
   company: 'Task Tracker',
