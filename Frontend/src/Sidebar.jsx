@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import logo from './assets/logo.png';
 
 const Sidebar = () => {
-  const [leadName, setLeadName] = useState('Sumit Kumar Sah');
+  const [leadName, setLeadName] = useState('Javed Iqbal');
   const [accessLevel, setAccessLevel] = useState('Admin');
   const menuItems = [
     { name: 'Dashboard', icon: <LayoutDashboard size={20}/>, path: '/' },
@@ -25,7 +25,7 @@ const Sidebar = () => {
       const stored = localStorage.getItem('profile');
       if (stored) {
         const parsed = JSON.parse(stored);
-        setLeadName(parsed.name || 'Sumit Kumar Sah');
+        setLeadName(parsed.name || 'Javed Iqbal');
         setAccessLevel(parsed.accessLevel || 'Member');
       }
     };

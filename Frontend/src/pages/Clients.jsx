@@ -10,7 +10,7 @@ const initialClients = [
     industry: 'E-commerce',
     status: 'Active',
     tier: 'Platinum',
-    lead: 'Sumit Kumar Sah',
+    lead: 'Javed Iqbal',
     progress: 84,
   },
   {

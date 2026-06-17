@@ -1,0 +1,19 @@
+{
+  "name": "tasktracker-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install:backend": "npm install --prefix Backend",
+    "install:frontend": "npm install --prefix Frontend",
+    "install:all": "npm run install:backend && npm run install:frontend",
+    "start:backend": "npm --prefix Backend run start",
+    "start:frontend": "npm --prefix Frontend run dev",
+    "start:web": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "test:backend": "npm --prefix Backend test",
+    "test:frontend": "npm --prefix Frontend test"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "packageManager": "npm@latest"
+}
